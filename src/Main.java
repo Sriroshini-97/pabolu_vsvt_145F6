@@ -32,6 +32,15 @@ public class Main {
 		
 		Student s2=sg.getStudent(k);
 		System.out.println(s2.getId()+" "+s2.getFullName()+" "+s2.getBirthDate()+" "+s2.getAvgMark());
+		Student s3=new Student(1,"roshini",new Date(1997-07-25),93);
+		sg.setStudent(s3,1);
+		
+		Student res1[]=sg.getStudents();
+		
+		for(int i=0;i<res1.length;i++)
+		{
+			System.out.println(res1[i].getId()+" "+res1[i].getFullName()+" "+res1[i].getBirthDate()+" "+res1[i].getAvgMark());
+		}
 	}
 	
 

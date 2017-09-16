@@ -58,6 +58,13 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void setStudent(Student student, int index) {
 		// Add your implementation here
+		for(int i=0;i<students.length;i++)
+		{
+			if(i==index)
+			{
+				students[i]=student;
+			}
+		}
 	}
 
 	@Override
