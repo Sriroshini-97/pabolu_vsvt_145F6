@@ -41,6 +41,16 @@ public class Main {
 		{
 			System.out.println(res1[i].getId()+" "+res1[i].getFullName()+" "+res1[i].getBirthDate()+" "+res1[i].getAvgMark());
 		}
+		/*Date d1=new Date(10-01-1997);
+		Date d2=new Date(10-05-1789);
+		Student res2[]=sg.getBetweenBirthDates(d1,d2);
+		
+		for(int i=0;i<res2.length;i++)
+		{
+			System.out.println(res2[i].getId()+" "+res2[i].getFullName()+" "+res2[i].getBirthDate()+" "+res2[i].getAvgMark());
+		}*/
+		
+		
 	}
 	
 

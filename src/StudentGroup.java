@@ -70,6 +70,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void addFirst(Student student) {
 		// Add your implementation here
+		
 	}
 
 	@Override
@@ -151,8 +152,8 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student[] getBetweenBirthDates(Date firstDate, Date lastDate) {
-		// Add your implementation here
 		return null;
+	
 	}
 
 	@Override
@@ -163,19 +164,22 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public int getCurrentAgeByDate(int indexOfStudent) {
-		// Add your implementation here
+		
 		return 0;
 	}
 
 	@Override
 	public Student[] getStudentsByAge(int age) {
 		// Add your implementation here
+		
 		return null;
+		
 	}
 
 	@Override
 	public Student[] getStudentsWithMaxAvgMark() {
 		// Add your implementation here
+		
 		return null;
 	}
 
