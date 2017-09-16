@@ -28,6 +28,10 @@ public class Main {
 		{
 			System.out.println(res[i].getId()+" "+res[i].getFullName()+" "+res[i].getBirthDate()+" "+res[i].getAvgMark());
 		}
+		int k=sc.nextInt();
+		
+		Student s2=sg.getStudent(k);
+		System.out.println(s2.getId()+" "+s2.getFullName()+" "+s2.getBirthDate()+" "+s2.getAvgMark());
 	}
 	
 

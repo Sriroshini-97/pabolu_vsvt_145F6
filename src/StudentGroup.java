@@ -45,6 +45,13 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student getStudent(int index) {
 		// Add your implementation here
+		for(int i=0;i<students.length;i++)
+		{
+			if(i==index)
+			{
+				return students[i];
+			}
+		}
 		return null;
 	}
 
